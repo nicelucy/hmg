@@ -1,0 +1,4 @@
+streamlit
+aiohttp
+aiohttp_socks
+pandas
