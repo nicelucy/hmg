@@ -2,3 +2,4 @@ streamlit
 aiohttp
 aiohttp_socks
 pandas
+st-gsheets-connection
