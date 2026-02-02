@@ -11,7 +11,7 @@ from streamlit_gsheets import GSheetsConnection
 st.set_page_config(page_title="哈密瓜科技 - 私有检测工具", layout="wide")
 
 st.title("🛡️ SOCKS5 代理批量检测")
-st.caption("检测结果将自动同步至 Google Sheets，并根据代理地址自动去重（保留最新记录）。")
+st.caption("请按以下提示的格式填写:72.1.133.228:7620:user:pass。")
 
 # 2. 初始化 Google Sheets 连接
 conn = st.connection("gsheets", type=GSheetsConnection)
