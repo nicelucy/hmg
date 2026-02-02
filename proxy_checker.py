@@ -10,7 +10,7 @@ from streamlit_gsheets import GSheetsConnection
 # 1. 页面基本配置
 st.set_page_config(page_title="哈密瓜科技 - 私有检测工具", layout="wide")
 
-st.title("🛡️ SOCKS5 代理批量检测 (自动去重入库版)")
+st.title("🛡️ SOCKS5 代理批量检测")
 st.caption("检测结果将自动同步至 Google Sheets，并根据代理地址自动去重（保留最新记录）。")
 
 # 2. 初始化 Google Sheets 连接
